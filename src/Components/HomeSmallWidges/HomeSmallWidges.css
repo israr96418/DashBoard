@@ -1,0 +1,66 @@
+.HomeSmallWidges{
+    flex: 1;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+
+    padding: 20px;
+     margin-right: 20px;
+
+}
+
+.HomeSmallWidgesTitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.HomeSmallWidgesList{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.HomeSmallWidgesListItems{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.homesmallwidgesUser{
+    display: flex;
+    flex-direction: column;
+}
+
+.homesmallwidgesImagw{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+.homesmallwidgesusername{
+    font-weight: 600;
+}
+.homesmallwidgesusertitle{
+    font-weight: 300;
+
+}
+.homesmallwidgesbutton{
+border-radius: 10px;
+border: none;    
+display: flex;
+align-items: center;
+padding: 7px 10px;
+background-color: #eeeef7;
+cursor: pointer;
+color: #555;
+}
+.homesmallwedgesicons{
+    font-size: 16px;
+    margin-right: 4px;
+}

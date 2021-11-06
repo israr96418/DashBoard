@@ -1,0 +1,7 @@
+.pages{
+    flex: 4;
+}
+.homewidges{
+    display:flex;
+    margin: 40px;
+}

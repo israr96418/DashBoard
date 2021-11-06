@@ -1,0 +1,60 @@
+.HomeLargeWidges{
+    flex: 2;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+}
+/* table,tr,th{
+    border: 1px solid black;
+}*/
+table{
+    width: 100%;
+    border-spacing: 20px;
+} 
+
+.homelargewidgesTitle{
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.homelgimg{
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     margin-right: 7px;
+     object-fit: cover;
+     cursor: pointer;
+}
+.homelargewidgesUser{
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+}
+.homelargeBtn{
+    padding:6px 21px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.homelargeBtn.Approved{
+    background-color: #e5faf2;
+    color: #3bb077;
+}
+
+
+.homelargeBtn.Rejected{
+    background-color: #fff0f1;
+    color: #3bb077;
+}
+
+
+
+.homelargeBtn.Pending{
+    background-color: #ebf1fe;
+    color: #3bb077;
+}
+.homelargewidgesTH{
+    text-align: left;
+}

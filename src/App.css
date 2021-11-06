@@ -1,0 +1,9 @@
+.container{
+  display: flex;
+}
+.linkToDifferentPages{
+ text-decoration: none;
+ display: flex;
+ align-items: center;
+ color: inherit;
+  }

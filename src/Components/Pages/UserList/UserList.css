@@ -1,0 +1,34 @@
+.userlist{
+    flex: 4;
+    height: 80vh;
+    width: 100%;
+    margin-top: 40px;
+}
+.gridtoolbarcontainer{
+     margin: 7px;
+  
+}
+.rendercell{
+    display: flex;
+    align-items: center;
+}
+.image{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;  
+    margin-right: 8px;
+}
+.btn{
+    border: none;
+    border-radius: 10px;
+    padding: 7px 15px;
+    cursor: pointer;
+    margin-right: 7px;
+    background-color: #83f0bb;
+}
+
+.delet{
+    color: red;
+    cursor: pointer;
+}

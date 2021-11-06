@@ -1,0 +1,54 @@
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    /* width: 100%; */
+
+}
+ .cardsitems{
+     padding: 20px;
+     flex:1;
+     height: 18vh;
+     width: 20vw;
+     background-color: white;
+     box-shadow: 1px 3px 2px 1px rgba(227,207,207,0.9);
+    -webkit-box-shadow: 1px 3px 2px 1px rgba(227,207,207,0.9);
+    -moz-box-shadow: 1px 3px 2px 1px rgba(227,207,207,0.9);
+
+    margin: 2px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.cardsitemstitle{
+     font-size: 20px;
+     /* font-weight: bold; */
+
+    }
+.cardsitemsrateExchange{
+   display: flex;
+   align-items: center;
+   margin: 10px 0px;
+}  
+.cardsitemsrateing{
+    font-size: 20px;
+    font-weight: 600;
+}
+.UpandDown{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 10px;
+}
+.cardsitemssubtitle{
+    color: gray;
+}
+.cardsicons{
+    font-size: 14px;
+    margin-left: 5px;
+    color: green;
+}
+
+.cardsicons.negative {
+    color: red;
+}
